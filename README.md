@@ -23,11 +23,3 @@ After installing the app, follow these steps to start chatting:
 1. Open ChatApp.
 2. Set your desired username.
 3. Start sending messages to your friends or colleagues.
-
-## Contributing
-
-Contributions to the ChatApp are welcome! If you have suggestions or improvements, feel free to fork the repository and create a pull request.
-
-## License
-
-[MIT License](LICENSE.md)

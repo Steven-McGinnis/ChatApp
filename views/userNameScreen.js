@@ -13,6 +13,7 @@ const UserNameScreen = ({ navigation }) => {
   };
 
   const handleSaveUsername = () => {
+    if (username === '') return;
     dispatch(setUserName(username));
     navigation.replace('ChatScreen');
   };

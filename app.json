@@ -4,32 +4,29 @@
     "slug": "ChatApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/chatlogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/chatlogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/chatlogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.stevenmcginnis.ChatApp"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-localization"
-    ],
+    "plugins": ["expo-localization"],
     "extra": {
       "eas": {
         "projectId": "251727fd-c633-4d55-b292-1cd03b6858f9"

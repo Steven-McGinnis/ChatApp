@@ -47,11 +47,12 @@ const ChatScreen = ({ navigation }) => {
     try {
       setIsLoading(true);
       const response = await fetch(
-        'http://cpsc345final.jayshaffstall.com/get_chats.php',
+        'https://cpsc345final.jayshaffstall.com/get_chats.php',
         {
           method: 'POST',
         }
       );
+
       const data = await response.json();
 
       if (data.status === 'error') {
@@ -105,7 +106,7 @@ const ChatScreen = ({ navigation }) => {
     formData.append('message', newMessage);
 
     const response = await fetch(
-      'http://cpsc345final.jayshaffstall.com/add_chat.php',
+      'https://cpsc345final.jayshaffstall.com/add_chat.php',
       {
         method: 'POST',
         body: formData,

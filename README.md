@@ -4,7 +4,7 @@ ChatApp is a simple, user-friendly chat application that allows you to set a use
 Features
 
     Set Your Username: Personalize your chat experience by setting your own username.
-    Instant Messaging: Send and receive messages instantly through our efficient API backend.
+    AutoRefreshing: The API is built to get logs through enabling a button allowing you to refresh.
     User-Friendly Interface: Enjoy a clean and intuitive interface for seamless chatting.
 
 Installation

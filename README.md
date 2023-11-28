@@ -11,7 +11,7 @@ Installation
 
 To install ChatApp, follow these steps:
 
-    Download the APK from the Dropbox link: ChatApp APK
+    Download the APK from the Dropbox link: [ChatApp APK](https://www.dropbox.com/scl/fi/kteqv89obdc8wr3xczs0n/application-7d0dbfd6-99c5-415c-8566-9197ccd4bfa2.apk?rlkey=meuf54ghdpg9jly083l211hzc&dl=0)
     Allow installation from unknown sources on your device: Go to Settings > Security > Unknown Sources, and enable it.
     Locate the downloaded APK file on your device and tap on it to begin the installation.
 

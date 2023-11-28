@@ -98,6 +98,8 @@ const ChatScreen = ({ navigation }) => {
   };
 
   const sendMessage = async () => {
+    if (newMessage === '') return;
+
     const formData = new FormData();
     formData.append('name', userName);
     formData.append('message', newMessage);
